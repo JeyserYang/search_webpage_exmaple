@@ -1,0 +1,44 @@
+/*
+* @Author: weijie Yang
+* @Date:   2020-10-21 10:08:26
+* @Last Modified by:   weijie Yang
+* @Last Modified time: 2020-10-21 12:49:58
+*/
+
+body, html {
+	height: 100%;
+}
+
+#header {
+	background-color: #F1F1F1;
+	text-align: center;
+	padding: 20px;
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
+.search {
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+#search_text {
+	width: 50%;
+}
+
+#protein_signals_div {
+	width: 20%;
+	overflow: auto;
+	background: #ccc;
+	float: right;
+	margin: 2px;
+	height: 90%;
+}
+
+#protein_signals_text {
+	overflow: auto;
+	width: 100%;
+	height: 100%;
+	text-align: left;
+}

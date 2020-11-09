@@ -2,13 +2,18 @@
 <html>
 <head>
 	<title>Protein Sequence Orthology</title>
+	<link rel="stylesheet" type="text/css" href="layout/index.css" charset="utf-8" />
+	<script type="text/javascript" src="scripts/index.js" charset="utf-8"></script>
 </head>
 <body>
-	<header>
-		<form>
-			<input type="text" name="gene_name" />
-			<p>search</p>
+	<header id="header">
+		<form action="https://www.uniprot.org/" method="post" id="form">
+			<input type="text" name="gene_name" class="search" id="search_text" placeholder="gene_name" />
+			<input type="submit" name="Search" class="search" id="search_button" value="Search" />
 		</form>
 	</header>
+	<!-- <div id="protein_signals_div"> -->
+		<!-- <textarea id="protein_signals_text" readonly="readonly">some goods.</textarea> -->
+	<!-- </div> -->
 </body>
 </html>
